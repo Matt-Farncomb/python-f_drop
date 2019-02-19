@@ -24,14 +24,14 @@ The app is currently only configured to receive 'txt' files.
 
 I have pushed an image of this app to Docker:
 
-`mudd101/py_drop:final`
+`mudd101/py_drop:latest`
 
 Providing Docker is installed, to grab this from the Docker hub, do the following in your terminal
 
 ```
 docker login
-docker pull mudd101/py_drop:final
-docker run -p 5000:5000 mudd101/py_drop:final
+docker pull mudd101/py_drop:latest
+docker run -p 5000:5000 mudd101/py_drop:latest
 ```
 The docker container for py_drop should then start up on the local server.
 

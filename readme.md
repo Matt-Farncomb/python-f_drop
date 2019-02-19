@@ -12,7 +12,7 @@ A python flask app to store files and their data.
 
 * main.py - sets up the db and has the main app functionality
 * helpers.py - the sql functions are in here
-* data.db - database used to store file metadata
+* data.db - database used to store file metadata (database is automatically created on app start up)
 * /uploads - dir where files will be stored
 * tests.sh - used to test apps functions
 * run.sh - starts the flask application

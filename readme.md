@@ -2,12 +2,6 @@
 
 A python flask app to store files and their data.
 
----
-Files received are stored in a folder named `uploads`.
-The data is stored in a sqlite db named `data.db`
-
----
-
 ## Technologies
 
 * python 3.6

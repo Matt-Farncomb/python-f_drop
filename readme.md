@@ -71,6 +71,6 @@ bash run.sh
 ```
 To test the apps features:
 ```bash
-# filename.txt is the user input. Use whatver name you like.
+# filename.txt is the user input. Use whatever name you like.
 bash tests.sh filename.txt
 ```

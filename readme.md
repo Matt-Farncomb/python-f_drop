@@ -53,6 +53,8 @@ curl http://127.0.0.1:5000/text.txt
 
 Alternatively, if not using Docker, there are two simple bash scripts I set up for local testing purposes that are with this repo.
 
+You will need to create a new folder/dir for the uploads folder by typing `mkdir uploads` in the terminal.
+
 The first `run.sh` is used to run the the flask app, which will run on your local server.
 
 The second, `tests.sh` is a simple little bash script which tests the features of `main.py`:

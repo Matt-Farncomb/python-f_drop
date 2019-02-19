@@ -55,7 +55,7 @@ curl http://127.0.0.1:5000
 curl http://127.0.0.1:5000/text.txt
 ```
 
-####Local Set-Up
+#### Local Set-Up
 
 Alternatively, if not using Docker, there are two simple bash scripts I set up for local testing purposes that are with this repo.
 

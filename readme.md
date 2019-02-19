@@ -57,13 +57,13 @@ The first `run.sh` is used to run the the flask app, which will run on your loca
 
 The second, `tests.sh` is a simple little bash script which tests the features of `main.py`:
 
-1:It makes a new file, the name specified by user input
-2:It sends that file to the app via POST and prints what's returned to the terminal
-3:It then sends a get request and prints that output
-4:And then sends another get request, this time with the filename of the created file
-5:The output is then printed to the terminal
+1. It makes a new file, the name specified by user input
+2. It sends that file to the app via POST and prints what's returned to the terminal
+3. It then sends a get request and prints that output
+4. And then sends another get request, this time with the filename of the created file
+5. The output is then printed to the terminal
 
-The tests.sh can also be used against the Docker container to test it.
+The `tests.sh` can also be used against the Docker container to test it.
 
 To run app in Local Linux env, in terminal type:
 ```bash
